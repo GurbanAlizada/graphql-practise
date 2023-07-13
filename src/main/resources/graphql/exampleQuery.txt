@@ -1,0 +1,33 @@
+
+
+mutation{
+  createUser(
+    userRequest :
+    {
+    name:"Gurban" ,
+    surname:"Alizada" ,
+    email:"fghjk"
+    }
+  ) {
+    id
+    name
+    created
+    password
+  }
+}
+
+
+**********************************************************************
+
+query{
+  getAllUsers{
+    id
+    name
+    surname
+    created
+    updated
+  }
+}
+
+******************************************************************************
+
